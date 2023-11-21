@@ -1,0 +1,89 @@
+/* Smartphones in portrait mode */
+@media screen and (max-width: 480px) {
+    .chat_container {
+        width: 100% !important;
+        height: 100% !important;
+        left: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        padding: 5px 7px !important;
+    }
+
+    .chat_box_header .info .info_item {
+        margin: 1px 4px !important;
+        padding: 3px 0px !important;
+    }
+
+
+    .chat_list_container {
+        width: 100% !important;
+    }
+
+
+
+}
+
+
+/* Tablets in portrait mode */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .chat_container {
+        width: 100% !important;
+        height: 90% !important;
+        left: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .chat_list_container {
+        width: 100% !important;
+    }
+
+}
+
+/* Tablets in landscape mode */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .chat_container {
+        width: 100% !important;
+        height: 90% !important;
+        left: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .chat_list_container {
+        width: 35% !important;
+    }
+
+    .chat_box_container {
+        width: 65% !important;
+    }
+}
+
+/* Laptops and desktops */
+@media screen and (min-width: 1024px) {}
+
+/* High-resolution devices like Retina displays */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /* CSS rules for high-resolution devices */
+}
+
+/* Print styles */
+@media print {
+    /* CSS rules for printing */
+}
+
+/* Landscape orientation */
+@media screen and (orientation: landscape) {
+    /* CSS rules for landscape orientation */
+}
+
+/* Portrait orientation */
+@media screen and (orientation: portrait) {
+    /* CSS rules for portrait orientation */
+}
+
+/* Custom breakpoint */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for the custom breakpoint */
+}
